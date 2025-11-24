@@ -101,13 +101,13 @@
                 <li class="group relative"> <a href="#home"
                     class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mx-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70 active"
                     role="menuitem">Inicio</a> </li>
-                <li class="group relative"> <a href="#services"
+                <li class="group relative"> <a href="#about"
                     class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                     role="menuitem">Nosotros</a> </li>
-                <li class="group relative"> <a href="#portfolio"
+                <li class="group relative"> <a href="#services"
                     class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                     role="menuitem">Servicios</a> </li>
-                <li class="group relative"> <a href="#pricing"
+                <li class="group relative"> <a href="#portfolio"
                     class="ic-page-scroll mx-8 flex py-2 text-base font-medium text-body-light-12 group-hover:text-primary dark:text-body-dark-12 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-primary-color lg:dark:text-primary-color lg:group-hover:text-primary-color lg:group-hover:opacity-70"
                     role="menuitem">Proyectos</a> </li>
                 <li class="group relative"> <a href="#team"
@@ -122,9 +122,7 @@
           <div class="flex items-center justify-end pr-[52px] lg:pr-0"> <button type="button"
               class="inline-flex items-center text-primary-color text-[24px]/none" aria-label="Switch theme"
               data-web-trigger="web-theme"></button>
-            <div class="hidden sm:flex"> <a href="javascript:void(0)"
-                class="btn-navbar ml-5 px-6 py-3 rounded-md bg-primary-color bg-opacity-20 text-base font-medium text-primary-color hover:bg-opacity-100 hover:text-primary"
-                role="button">Get Started</a> </div>
+            
           </div>
         </div>
       </div>
@@ -133,11 +131,14 @@
 
   <main class="main relative">
     <!-- Hero section -->
-    <section id="home"
-      class="relative overflow-hidden bg-primary text-primary-color pt-[120px] md:pt-[130px] lg:pt-[160px] bg-cover bg-center bg-no-repeat"
+    <section id="home" class="relative overflow-hidden h-screen bg-primary text-primary-color 
+      bg-cover bg-bottom bg-no-repeat pt-[120px] md:pt-[130px] lg:pt-[160px]"
       style="background-image: url('./assets/img/trabajadores-de-la-construccion-al-atardecer.jpg');">
+
       <!-- Overlay oscuro para mejorar contraste -->
-      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50">
+
+      </div>
 
       <div class="container relative z-10">
         <div class="-mx-5 flex flex-wrap items-center">
@@ -146,45 +147,39 @@
               <h1
                 class="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-tight">
 
-                <span class="text-amber-400">EC.SA Constructora</span>
+                <span class="text-amber-400"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60" width="140"
+                    height="55" class="block mx-auto">
+
+                    <g fill="currentColor">
+                      <path
+                        d="M27.75 46.30L0 46.30L0 11.30L27.75 11.30L27.75 18.30L9 18.30L9 25.05L23.75 25.05L23.75 32.05L9 32.05L9 39.30L27.75 39.30L27.75 46.30ZM58.75 45.80Q47.60 46.80 40.25 46.80Q35.35 46.80 33.05 44.50Q30.75 42.20 30.75 37.30L30.75 21.30Q30.75 16.05 33.13 13.68Q35.50 11.30 40.75 11.30L58.75 11.30L58.75 18.30L42.75 18.30Q39.75 18.30 39.75 21.30L39.75 37.30Q39.75 38.45 40.42 39.13Q41.10 39.80 42.15 39.80Q43.20 39.80 44.45 39.78Q45.70 39.75 47.05 39.70Q48.40 39.65 49.78 39.60Q51.15 39.55 53.33 39.40Q55.50 39.25 58.75 39.05L58.75 45.80ZM61.25 38.80L70.25 38.80L70.25 46.30L61.25 46.30L61.25 38.80ZM73.70 39.05Q87.40 39.80 92.25 39.80Q93.40 39.80 94.08 39.13Q94.75 38.45 94.75 37.30L94.75 32.80L83.25 32.80Q78 32.80 75.63 30.43Q73.25 28.05 73.25 22.80L73.25 21.30Q73.25 16.05 75.63 13.68Q78 11.30 83.25 11.30L100.80 11.30L100.80 18.30L85.25 18.30Q82.25 18.30 82.25 21.30L82.25 22.30Q82.25 25.30 85.25 25.30L94.25 25.30Q99.15 25.30 101.45 27.60Q103.75 29.90 103.75 34.80L103.75 37.30Q103.75 42.20 101.45 44.50Q99.15 46.80 94.25 46.80Q91.70 46.80 88.85 46.70L84.25 46.50Q79.15 46.25 73.70 45.80L73.70 39.05ZM113.50 46.30L103.75 46.30L117 11.30L127 11.30L140.25 46.30L130.50 46.30L128.25 40.05L115.75 40.05L113.50 46.30M118 33.55L126 33.55L122 21.80L118 33.55Z" />
+                    </g>
+                  </svg> Constructora</span>
                 <br>
-
+                <br>
                 <!-- Texto animado -->
-                <span id="texto-animado" class="block min-h-[60px] sm:min-h-[70px] lg:min-h-[85px] overflow-hidden flex items-center justify-center mt-4">
-
+                <span id="texto-animado"
+                  class="min-h-[60px] sm:min-h-[70px] lg:min-h-[85px] overflow-hidden flex items-center justify-center">
                   <span id="frase"
                     class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-700"></span>
                 </span>
               </h1>
-
+              <br><br>
 
               <p class="mx-auto mb-9 max-w-[600px] text-base text-white sm:text-lg sm:leading-normal">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus qui impedit veniam, nesciunt nostrum vel repellat
-                reprehenderit dignissimos harum, iste ex sit illo?
+                Especialistas en Estructuras y Cimentaciones de Concreto S.A. de C.V. 
+
               </p>
 
               <ul class="mb-10 flex flex-wrap items-center justify-center gap-4 md:gap-5">
                 <li>
-                  <a href="javascript:void(0)"
+                  <a href="#contact"
                     class="inline-flex items-center justify-center rounded-md bg-primary-color text-primary px-5 py-3 text-center text-base font-medium shadow-md hover:bg-primary-light-5 md:px-7 md:py-[14px]"
                     role="button">Contactanos</a>
-                </li>
 
-                <li>
-                  <a href="javascript:boid(0)"
-                    class="video-popup flex items-center gap-4 rounded-md bg-primary-color/[0.15] px-5 py-3 text-base font-medium text-white hover:bg-primary-color hover:text-primary md:px-7 md:py-[14px]"
-                    role="button"><i class="lni lni-play text-lg/none"></i> Watch Intro</a>
-                </li>
               </ul>
 
-              <div>
-                <p class="mb-4 text-center text-white">Powered by</p>
 
-                <div class="scroll-revealed flex items-center justify-center gap-4 text-center">
-                  <!-- Logo aquí -->
-                </div>
-              </div>
             </div>
           </div>
 
@@ -2109,16 +2104,16 @@
 
   <script>
     const frases = [
-      "Calidad total en cada proyecto.",
-      "Optimización de recursos y tiempos.",
-      "Construcción con innovación y vanguardia.",
-      "Líderes en resistencia, seguridad y diseño.",
-      "Macroproyectos con calidad internacional.",
-      "Compromiso, lealtad y honestidad.",
-      "Soluciones rápidas y efectivas.",
-      "Equipo preparado, experto y profesional.",
-      "Respeto y empatía con clientes y colaboradores.",
-      "La opción más confiable y exitosa."
+      "Calidad total en cada proyecto",
+      "Optimización de recursos y tiempos",
+      "Construcción con innovación y vanguardia",
+      "Líderes en resistencia, seguridad y diseño",
+      "Macroproyectos con calidad internacional",
+      "Compromiso, lealtad y honestidad",
+      "Soluciones rápidas y efectivas",
+      "Equipo preparado, experto y profesional",
+      "Respeto y empatía con clientes y colaboradores",
+      "La opción más confiable y exitosa"
     ];
 
     let index = 0;
