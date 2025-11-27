@@ -1039,7 +1039,7 @@ p + p{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-   /*background-image: radial-gradient(
+   background-image: radial-gradient(
       circle at top right,
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 28%,
@@ -1049,7 +1049,7 @@ p + p{
       rgba(255, 255, 255, 0.05) 63%,
       rgba(255, 255, 255, 0.025) 63%,
       rgba(255, 255, 255, 0.025) 100%
-    );*/
+    );
 }
 
 .section-area{
